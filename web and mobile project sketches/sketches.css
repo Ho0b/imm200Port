@@ -1,0 +1,36 @@
+html{
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+body{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: block;
+    width: 100%;
+    scroll-snap-align: start;
+    list-style-type: none;
+    max-width: 472px;
+}
+img{
+    width: 100%;
+    padding-top: 1em;
+}
+.largetext{
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.largetext::first-letter{
+    color: green;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 2em;
+}
